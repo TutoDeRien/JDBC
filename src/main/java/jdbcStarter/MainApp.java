@@ -6,9 +6,9 @@ public class MainApp {
 
     public static void main(String[] args) {
 
-        String url="jdbc:mysql://";
+        String url="jdbc:mysql://localhost:3308/warehouse?serverTimezone=UTC";
         String userName="root";
-        String password="";
+        String password="tutoderien";
 
         try {
             Connection con = DriverManager.getConnection(url,userName,password);
